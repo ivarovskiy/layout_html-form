@@ -19,13 +19,21 @@
         <div class="input_container">
           <label for="surname">
             Surname:
-            <input type="text" id="surname">
+            <input
+              type="text"
+              id="surname"
+              name="surname"
+            >
           </label>
         </div>
         <div class="input_container">
           <label for="name">
             Name:
-            <input type="text" id="name">
+            <input
+              type="text"
+              id="name"
+              name="name"
+            >
           </label>
         </div>
         <div class="input_container">
@@ -37,13 +45,18 @@
               max="100"
               id="age"
               value="12"
+              name="age"
             >
           </label>
         </div>
         <div class="input_container">
           <label for="birth">
             Full date of birth:
-            <input type="date" id="birth">
+            <input
+              type="date"
+              id="birth"
+              name="date_of_birth"
+            >
           </label>
         </div>
         <div class="input_container">
@@ -53,6 +66,7 @@
               type="checkbox"
               id="term"
               required
+              name="terms"
             >
           </label>
         </div>
@@ -67,13 +81,20 @@
               type="email"
               id="email"
               placeholder="email@example.com"
+              name="e-mail"
             >
           </label>
         </div>
         <div class="input_container">
           <label for="pass">
             Password:
-            <input type="password" id="pass">
+            <input
+              type="password"
+              id="pass"
+              name="pass"
+              min="5"
+              max="15"
+            >
           </label>
         </div>
       </fieldset>
@@ -83,7 +104,8 @@
         <div class="input_container">
           Do you love cats?
           <label for="yes">
-            <input type="radio"
+            <input
+              type="radio"
               id="yes"
               name="loveCats"
             >
@@ -101,21 +123,31 @@
         <div class="input_container">
           <label for="color">
             What is your favorite color?
-            <input type="color" id="color">
+            <input
+              type="color"
+              id="color"
+              name="color"
+            >
           </label>
         </div>
         <div class="input_container">
           <label for="bed">
             What time do you go to bed?
-            <input type="time" id="bed">
+            <input
+            type="time"
+            id="bed"
+            name="go_to_bed"
+            >
           </label>
         </div>
         <div class="input_container">
           <label for="cars">
             What are your favorite brand of cars?
-            <select id="cars"
+            <select
+              id="cars"
               required
               multiple
+              name="cars"
             >
               <option value="BMW">BMW</option>
               <option value="Audi">Audi</option>
@@ -127,9 +159,11 @@
         <div class="input_container">
           <label for="work">
             How do you rate our work?
-            <input type="range"
+            <input
+              type="range"
               id="work"
               value="0"
+              name="rate"
             >
           </label>
         </div>
@@ -140,7 +174,7 @@
         <div class="input_container">
           <label for="comments">
             Comments:
-            <textarea id="comments">
+            <textarea id="comments" name="comments">
             </textarea>
           </label>
         </div>
