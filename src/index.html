@@ -9,7 +9,11 @@
   </head>
   <body>
     <script type="text/javascript" src="./main.js"></script>
-    <form action="" onsubmit="onSubmit()">
+    <form
+       action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+       method="post"
+       onsubmit="onSubmit()"
+    >
       <fieldset class="fieldset">
         <legend>Personal information</legend>
         <div class="input_container">
@@ -27,7 +31,8 @@
         <div class="input_container">
           <label for="age">
             How old are You?
-            <input type="number"
+            <input
+              type="number"
               min="10"
               max="100"
               id="age"
@@ -44,7 +49,11 @@
         <div class="input_container">
           <label for="term">
             I accept the term of the agreement
-            <input type="checkbox" id="term">
+            <input
+              type="checkbox"
+              id="term"
+              required
+            >
           </label>
         </div>
       </fieldset>
@@ -54,7 +63,8 @@
         <div class="input_container">
           <label for="email">
             E-mail:
-            <input type="email"
+            <input
+              type="email"
               id="email"
               placeholder="email@example.com"
             >
@@ -80,7 +90,8 @@
             Yes
           </label>
           <label for="no">
-            <input type="radio"
+            <input
+              type="radio"
               id="no"
               name="hateCats"
             >

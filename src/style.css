@@ -6,6 +6,6 @@
   margin-bottom: 10px;
 }
 
-fieldset > .input_container:last-child {
+.fieldset > .input_container:last-child {
   margin-bottom: 0;
 }
